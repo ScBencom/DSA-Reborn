@@ -12,5 +12,9 @@ public class Main {
 
     Collections.sort(numbers);
     System.out.println(numbers); // [1, 3, 5, 7, 9]
+    //You can also sort in reverse order with Collections.sort(list, Collections.reverseOrder())
+    Collections.sort(numbers, Collections.reverseOrder());
+    System.out.println(numbers); 
+    
   }
 }
